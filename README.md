@@ -18,7 +18,7 @@ Welcome to my personal portfolio repository! This repository contains the source
 2. Open the `index.html` file in your web browser to access the portfolio webpage.
 3. Explore the different sections and navigate through the projects and information.
 
-![Home Page](./images/preview-1)
+![Home Page](https://github.com/Draconus524/Personal-portfolio-cherry/blob/main/images/preview-1.png)
 ![Projects Page](./images/preview-2)
 
 ### For seeing Preview :- [click here](https://rohit-vyas.netlify.app)
