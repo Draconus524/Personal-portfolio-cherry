@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohit Vyas | Web Developer</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/images/me.png">
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- header design -->
+  <header class="header">
+    <a href="#" class="logo">Rohit Vyas</a>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Rohit Vyas</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>Passionate BTech student, frontend developer, and freelance creator, crafting intuitive web experiences with a
+        keen eye for detail.</p>
+      <div class="social-media">
+        <a href="https://github.com/Draconus524" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/rohit-vyas02/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+
+      </div>
+      <a href="#about" class="btn">About Me</a>
+    </div>
+
+    <div class="home-img">
+      <img src="images/me.png" alt="">
+    </div>
+  </section>
+
+  <!-- about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/about.png" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Frontened Developer!</h3>
+      <p>I’m Rohit Vyas, a BTech student at SRM University and an alumni of La Martiniere College, Lucknow. Coding and
+        web
+        development are my passion, and I’ve honed my skills through various hackathons and coding competitions, where
+        I’ve won several awards. I’m always looking for new challenges to push my limits and create impactful solutions.
+      </p>
+      <a href="#contact" class="btn">Contact me</a>
+    </div>
+  </section>
+
+  <!-- skills section design -->
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+      <div class="skills-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Web Development</h3>
+        <p>A frontend developer passionate about building responsive and visually engaging web
+          applications with a focus on clean code and user-centric design.</p>
+        <a href="#portfolio" class="btn">Check Projects</a>
+      </div>
+
+      <div class="skills-box">
+        <i class="bx bxs-paint"></i>
+        <h3>Graphic Design</h3>
+        <p>I served as the graphic designer for my school, honing my skills in creating visually compelling designs, and
+          I continue to apply my graphic design expertise to various projects.</p>
+        <a href="https://www.linkedin.com/in/rohit-vyas02/" target="_blank" class="btn">Check Linkedin</a>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <!-- portfolio section design -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="images/portfolio1.png" alt="">
+        <div class="portfolio-layer">
+          <h4>LEO Website</h4>
+          <p>Designed a website for my school's extracurricular club</p>
+          <a href="https://lmcleo.netlify.app" target="_blank"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images/portfolio2.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Nike Website Redesign</h4>
+          <p>Tried to redesign nike website!</p>
+          <a href="https://nike-website.netlify.app" target="_blank"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images/portfolio3.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Vyathit Website</h4>
+          <p>Designed a website for a NGO in lucknow who help local street vendors to get their problems solved!</p>
+          <a href="https://vyathit.org" target="_blank"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      
+    </div>
+  </section>
+
+
+  <!-- contact section design -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="https://formsubmit.co/rohitv2916@gmail.com" method="POST">
+      <div class="input-box">
+        <input type="text" name="name" placeholder="Full Name">
+        <input type="email" name="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="number" name="number" placeholder="Mobile Number">
+        <input type="text" name="_subject" placeholder="Email Subject">
+      </div>
+      <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+      <!-- <input type="hidden" name="_subject" value="New submission!"> -->
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://rohit-vyas.netlify.app/">
+    </form>
+  </section>
+
+  <!-- footer design -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2024 by Rohit | All Rights Reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
